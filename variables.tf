@@ -31,7 +31,7 @@ variable "instance_type" {
 variable "key_name" {
   description = "Name of the SSH key pair to use for EC2 instances"
   type        = string
-  default     = "demo-key"
+  default     = "devops-tools"
 }
 
 variable "ami_id" {
